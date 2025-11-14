@@ -1,0 +1,101 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#0f1416",
+    paddingTop: 24,
+    paddingHorizontal: 36,
+    paddingBottom: 24,
+    marginTop: 30,
+  },
+  voltar: {
+    position: "absolute",
+    left: 20,
+    top: 18,
+    padding: 8,
+    zIndex: 10,
+  },
+  backArrow: {
+    color: "#ffffff",
+    fontSize: 28,
+    fontWeight: "600",
+  },
+  backimg: {
+    tintColor: "white",
+    width: 30,
+    height: 30,
+  },
+  header: {
+    marginTop: 18,
+    marginBottom: 8,
+  },
+  title: {
+    color: "#ffffff",
+    fontSize: 30,
+    fontWeight: "700",
+    marginBottom: 6,
+    marginTop: 20,
+  },
+  subtitle: {
+    color: "#c6c9cc",
+    fontSize: 16,
+  },
+  inputContainer: {
+    marginTop: 18,
+    marginBottom: 6,
+  },
+  input: {
+    height: 54,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: "#2f3336",
+    paddingHorizontal: 16,
+    color: "#ffffff",
+    backgroundColor: "transparent",
+    width: "110%",
+    alignSelf: "center",
+  },
+  primaryButton: {
+    backgroundColor: "#1877f2",
+    height: 58,
+    borderRadius: 32,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 18,
+    width: "110%",
+    alignSelf: "center",
+  },
+  primaryButtonText: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: "600",
+  },
+  secondaryButton: {
+    marginTop: 12,
+    height: 54,
+    borderRadius: 32,
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 1,
+    borderColor: "#3a3f44",
+    backgroundColor: "transparent",
+    width: "110%",
+    alignSelf: "center",
+  },
+  secondaryButtonText: {
+    color: "#e6e9eb",
+    fontSize: 16,
+  },
+  footer: {
+    flex: 1,
+    justifyContent: "flex-end",
+    alignItems: "center",
+    paddingBottom: 16,
+  },
+  img: {
+    width: 50,
+    height: 50,
+    alignSelf: "center",
+  },
+});

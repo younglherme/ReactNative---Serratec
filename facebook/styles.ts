@@ -16,28 +16,23 @@ export const styles = StyleSheet.create({
     padding: 8,
     zIndex: 10,
   },
-  backArrow: {
+  botaoVoltar: {
     color: "#ffffff",
     fontSize: 28,
     fontWeight: "600",
-  },
-  backimg: {
-    tintColor: "white",
-    width: 30,
-    height: 30,
   },
   header: {
     marginTop: 18,
     marginBottom: 8,
   },
-  title: {
+  titulo: {
     color: "#ffffff",
     fontSize: 30,
     fontWeight: "700",
     marginBottom: 6,
     marginTop: 20,
   },
-  subtitle: {
+  subtitulo: {
     color: "#c6c9cc",
     fontSize: 16,
   },
@@ -56,7 +51,7 @@ export const styles = StyleSheet.create({
     width: "110%",
     alignSelf: "center",
   },
-  primaryButton: {
+  botaoPrimario: {
     backgroundColor: "#1877f2",
     height: 58,
     borderRadius: 32,
@@ -66,12 +61,12 @@ export const styles = StyleSheet.create({
     width: "110%",
     alignSelf: "center",
   },
-  primaryButtonText: {
+  botaoPrimarioText: {
     color: "#fff",
     fontSize: 18,
     fontWeight: "600",
   },
-  secondaryButton: {
+  botaoSecundario: {
     marginTop: 12,
     height: 54,
     borderRadius: 32,
@@ -83,7 +78,7 @@ export const styles = StyleSheet.create({
     width: "110%",
     alignSelf: "center",
   },
-  secondaryButtonText: {
+  botaoSecundarioText: {
     color: "#e6e9eb",
     fontSize: 16,
   },

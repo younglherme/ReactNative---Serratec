@@ -7,12 +7,12 @@ const App: React.FC = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.voltar} activeOpacity={0.7}>
-        <Text style={styles.backArrow}>{"<"}</Text>
+        <Text style={styles.botaoVoltar}>{"<"}</Text>
       </TouchableOpacity>
 
       <View style={styles.header}>
-        <Text style={styles.title}>Encontre sua conta</Text>
-        <Text style={styles.subtitle}>Insira o número do seu celular.</Text>
+        <Text style={styles.titulo}>Encontre sua conta</Text>
+        <Text style={styles.subtitulo}>Insira o número do seu celular.</Text>
       </View>
 
       <View style={styles.inputContainer}>
@@ -24,12 +24,12 @@ const App: React.FC = () => {
         />
       </View>
 
-      <TouchableOpacity style={styles.primaryButton} activeOpacity={0.85}>
-        <Text style={styles.primaryButtonText}>Continuar</Text>
+      <TouchableOpacity style={styles.botaoPrimario} activeOpacity={0.85}>
+        <Text style={styles.botaoPrimarioText}>Continuar</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.secondaryButton} activeOpacity={0.85}>
-        <Text style={styles.secondaryButtonText}>Pesquisar por email</Text>
+      <TouchableOpacity style={styles.botaoSecundario} activeOpacity={0.85}>
+        <Text style={styles.botaoSecundarioText}>Pesquisar por email</Text>
       </TouchableOpacity>
 
       <View style={styles.footer}>
